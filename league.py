@@ -1,6 +1,6 @@
 #!/bin/python
 
-from yahoo_fantasy_api import yhandler, team
+import yhandler, team
 import objectpath
 import datetime
 
