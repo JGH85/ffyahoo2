@@ -11,7 +11,16 @@ class Team:
     :type sc: :class:`yahoo_oauth.OAuth2`
     :param team_key: Team key identifier for the team we are constructing this
         object for.
-    :type team_key: str
+    :type team_key: str     
+    Attributes:
+        teamname
+        division_id
+        faab_balance
+        number_of_moves
+        number_of_trades
+        manager_id
+        manageremail
+        managernickname
     """
     def __init__(self, sc, team_key):
         self.sc = sc
