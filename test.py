@@ -26,6 +26,7 @@ print(gm)
 league_ids = gm.league_ids()
 
 kffl_league_id = '390.l.707700'
+joesleagueid = '371.l.252880'
 
 
 lg = gm.to_league(kffl_league_id)
